@@ -1,4 +1,4 @@
-import {addCustomer} from './crud.mjs';
+import {addCustomer} from './crud.mjs'; .
 
 function getData(){
   const name = document.getElementById('name').value;
