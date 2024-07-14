@@ -1,5 +1,6 @@
 import {addCustomer} from './crud.mjs'; 
 
+alert('hii');
 function getData(){
   const name = document.getElementById('name').value;
   const img = document.getElementById('img').value;
@@ -8,7 +9,7 @@ function getData(){
   return {name,img,discription,price}
 }
 
-const add_button ilyfhvi = document.getElementById('add_button');
+const add_button = document.getElementById('add_button');
 add_button.addEventListener('click', () =>{
   let gettingData = getData();
   let data = {
