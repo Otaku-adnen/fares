@@ -1,11 +1,13 @@
-const urlCode = 'http://localhost:3003';
+const ngrok = 'https://e32c-102-106-27-48.ngrok-free.app';
+const localhost = 'http://localhost:3003';
+const urlCode = ngrok;
 
 
 
 
 export function addCustomer(data){
   const failureMessage = 'حدث خطأ ما';
-  const successMessage = 'تم تسجيل الدخول بنجاح';
+  const successMessage = 'تم اظافة المنتج !';
   fetch(urlCode+'/product/add',{
     method: 'POST',
     headers: {
