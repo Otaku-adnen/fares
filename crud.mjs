@@ -8,7 +8,7 @@ const urlCode = ngrok;
 export function addCustomer(data){
   const failureMessage = 'حدث خطأ ما';
   const successMessage = 'تم اظافة المنتج !';
-  fetch(urlCode+'/product/add',{
+  fetch(ngrok +'/product/add',{
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
