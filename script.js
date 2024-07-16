@@ -1,6 +1,6 @@
 import {addCustomer} from './crud.mjs'; 
 
-alert('bech !');
+//alert('bech !');
 function getData(){
   const name = document.getElementById('name').value;
   const img = document.getElementById('img').value;
